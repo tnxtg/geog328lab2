@@ -66,6 +66,8 @@ h1 {
 
 /* Add a black background color to the top navigation */
 .topnav {
+  display: flex;
+  justify-content: space-evenly;
   background-color: #8D77AB;
   overflow: hidden;
 }
@@ -93,6 +95,7 @@ tr:nth-child(even) {
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  flex-grow: 1;
   float: left;
   display: block;
   color: #F9F6E6;
